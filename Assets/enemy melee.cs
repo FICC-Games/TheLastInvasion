@@ -6,7 +6,7 @@ public class enemymelee : MonoBehaviour
 {
     Rigidbody2D rb;
 
-    player target;
+    Player target;
 
     public int playerhealth;
 
@@ -23,7 +23,7 @@ public class enemymelee : MonoBehaviour
     }
     void Die()
     {
-        Destroy(player);
+        Destroy(Player);
     }
 
 
