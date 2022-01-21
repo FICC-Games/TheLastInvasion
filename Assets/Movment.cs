@@ -34,6 +34,7 @@ public class Movment : MonoBehaviour
     void Start()
     {
         onground = true;
+        animator.SetBool("isRunning", true);
 
     }
     private void Awake()
@@ -69,6 +70,7 @@ public class Movment : MonoBehaviour
                 float jumpVelocity = JumpHight;
                 rb2d.velocity = Vector2.up * jumpVelocity;
                 onground = false;
+                animator.SetBool("isJumping", true);
             }
             else
             {
@@ -92,6 +94,7 @@ public class Movment : MonoBehaviour
         if (collision.gameObject.tag == "Ground")
         {
             onground = true;
+            animator.SetBool("isJumping", false);
         }
     }
 
