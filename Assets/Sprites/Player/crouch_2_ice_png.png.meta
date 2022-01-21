@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -220,6 +221,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      crouch_2_ice_png_4: -5413036989136834919
+      crouch_2_ice_png_3: 706725182627240627
+      crouch_2_ice_png_0: -6288221598775195021
+      crouch_2_ice_png_1: -6017600243404759124
+      crouch_2_ice_png_2: 5845493429231289947
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -180,6 +180,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -1348,6 +1349,59 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      tile_set_collection_wo_details_1_6: 1722378699218558709
+      tile_set_collection_wo_details_1_32: -4609235375111938205
+      tile_set_collection_wo_details_1_51: -4597456527603890811
+      tile_set_collection_wo_details_1_22: -6272271580492345103
+      tile_set_collection_wo_details_1_9: -5322361013411772413
+      tile_set_collection_wo_details_1_41: 3354002186862558145
+      tile_set_collection_wo_details_1_47: 2371155986021344217
+      tile_set_collection_wo_details_1_46: 5452784547546264304
+      tile_set_collection_wo_details_1_10: 8823577274498535814
+      tile_set_collection_wo_details_1_29: 858116598471646797
+      tile_set_collection_wo_details_1_20: 8831509962148960958
+      tile_set_collection_wo_details_1_12: 8827273184779396688
+      tile_set_collection_wo_details_1_15: -1898235103249732628
+      tile_set_collection_wo_details_1_24: 8150602181246873960
+      tile_set_collection_wo_details_1_13: 5989377084131999400
+      tile_set_collection_wo_details_1_21: 7911226533422720211
+      tile_set_collection_wo_details_1_14: 217583067835335059
+      tile_set_collection_wo_details_1_2: 8913478517148852998
+      tile_set_collection_wo_details_1_5: 6136667729855785240
+      tile_set_collection_wo_details_1_1: 5340980123701134632
+      tile_set_collection_wo_details_1_28: -5659666388584112153
+      tile_set_collection_wo_details_1_26: -3195441996688128326
+      tile_set_collection_wo_details_1_30: -8207088798446202096
+      tile_set_collection_wo_details_1_39: -5873808583383898337
+      tile_set_collection_wo_details_1_35: 1251844686401540968
+      tile_set_collection_wo_details_1_7: 3190927446495075158
+      tile_set_collection_wo_details_1_19: -1643032129376546401
+      tile_set_collection_wo_details_1_17: -2224953876036040979
+      tile_set_collection_wo_details_1_38: 4017760962000708229
+      tile_set_collection_wo_details_1_11: 9182506442086448891
+      tile_set_collection_wo_details_1_18: -4081626083909419000
+      tile_set_collection_wo_details_1_45: 8620179851877847570
+      tile_set_collection_wo_details_1_50: 710049205666089343
+      tile_set_collection_wo_details_1_43: 1763409975928523420
+      tile_set_collection_wo_details_1_40: -2472148035268513533
+      tile_set_collection_wo_details_1_0: -8399240752473645647
+      tile_set_collection_wo_details_1_37: -5906589182472102793
+      tile_set_collection_wo_details_1_49: 5355906098886662623
+      tile_set_collection_wo_details_1_25: 6531321736178495030
+      tile_set_collection_wo_details_1_34: -2175092266873014715
+      tile_set_collection_wo_details_1_23: 3826818071491291233
+      tile_set_collection_wo_details_1_31: 5260492978347224855
+      tile_set_collection_wo_details_1_36: -5048648725301429013
+      tile_set_collection_wo_details_1_48: 8777778497827795658
+      tile_set_collection_wo_details_1_33: 443098998307474758
+      tile_set_collection_wo_details_1_4: -418418338097545882
+      tile_set_collection_wo_details_1_16: 756776469476385744
+      tile_set_collection_wo_details_1_42: -5903278401440405393
+      tile_set_collection_wo_details_1_44: 4454180999836581320
+      tile_set_collection_wo_details_1_3: 5759430439274242230
+      tile_set_collection_wo_details_1_27: -2216405849998829231
+      tile_set_collection_wo_details_1_8: 4921265154691252391
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

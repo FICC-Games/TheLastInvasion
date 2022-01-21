@@ -39,6 +39,7 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
+  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -220,6 +221,12 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    nameFileIdTable:
+      crouch_and_walk_char_1: 5097466261402880721
+      crouch_and_walk_char_2: 282526995943024829
+      crouch_and_walk_char_0: 424839110843250818
+      crouch_and_walk_char_3: 1826677832071306878
+      crouch_and_walk_char_4: -1689221676523200767
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
