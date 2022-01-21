@@ -12,7 +12,7 @@ public class enemyraycast : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerTransform = FindObjectOfType<player>().transform;
+        //playerTransform = FindObjectOfType<Player>().transform;
     }
 
     // Update is called once per frame
