@@ -34,8 +34,6 @@ public class Movment : MonoBehaviour
     void Start()
     {
         onground = true;
-        animator.SetBool("isRunning", true);
-
     }
     private void Awake()
     {
@@ -53,10 +51,6 @@ public class Movment : MonoBehaviour
                 Looking = true;
                 Player.transform.eulerAngles = new Vector3(0f, 0f, 0f);
                 animator.SetBool("isRunning", true);
-                if (lookingright)
-                {
-
-                }
             }
             if (Input.GetKey(left))
             {
