@@ -6,7 +6,7 @@ public class enemymelee : MonoBehaviour
 {
     Rigidbody2D rb;
 
-    Player target;
+    //Player target;
 
     public int playerhealth;
 
