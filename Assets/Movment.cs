@@ -52,7 +52,7 @@ public class Movment : MonoBehaviour
                 transform.position += new Vector3(speed / Crouchspeed, 0, 0) * Time.deltaTime;
                 Looking = true;
                 Player.transform.eulerAngles = new Vector3(0f, 0f, 0f);
-                animator.SetFloat("Speed", 1);
+                animator.SetBool("isRunning", true);
                 if (lookingright)
                 {
 
@@ -63,7 +63,11 @@ public class Movment : MonoBehaviour
                 transform.position -= new Vector3(speed / Crouchspeed, 0, 0) * Time.deltaTime;
                 Looking = false;
                 Player.transform.eulerAngles = new Vector3(0f, 180f, 0f);
-                animator.SetFloat("Speed", 1);
+                animator.SetBool("isRunning", true);
+            }
+            else
+            {
+                animator.SetBool("isRunning", false);
             }
             if ((Input.GetKeyDown(jump) && onground) || (Input.GetKeyDown(jumpx2) && onground))
             {
@@ -71,10 +75,6 @@ public class Movment : MonoBehaviour
                 rb2d.velocity = Vector2.up * jumpVelocity;
                 onground = false;
                 animator.SetBool("isJumping", true);
-            }
-            else
-            {
-                animator.SetFloat("Speed", 0);
             }
         }
 
