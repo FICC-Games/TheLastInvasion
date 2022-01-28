@@ -6,7 +6,7 @@ public class Gun : MonoBehaviour
 
     float timer;
 
-    public bool Looking;
+    public bool looking;
 
 
 
@@ -15,9 +15,12 @@ public class Gun : MonoBehaviour
     [SerializeField]
     private GameObject icebullet;
 
-    float direction;
+    public float direction;
     float ab;
     public bool lazer;
+
+    Movment move;
+    
     public object Yield
     {
         get; private set;
@@ -26,7 +29,7 @@ public class Gun : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        Looking = true;
+        move = GetComponent<Movment>();
         lazer = true;
     }
 
@@ -35,13 +38,13 @@ public class Gun : MonoBehaviour
     {
         timer += Time.deltaTime;
             
-        if (Looking == true)
+        if (move.Looking == true)
         {
             direction = 1.5f;
         }
-        if (Looking == false)
+        if (move.Looking == false)
         {
-            direction -= 1.5f;
+            direction = -1.5f;
         }
         
       
@@ -50,7 +53,7 @@ public class Gun : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == false )
         {
             timer = 0;
-            Instantiate(icebullet, transform.position + new Vector3(direction, ab, 0), bullet.transform.rotation);
+            Instantiate(icebullet, transform.position + new Vector3(direction*3, ab, 0), bullet.transform.rotation);
 
             lazer = true;
         }
@@ -59,9 +62,10 @@ public class Gun : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == true )
         {
             timer = 0;
-            Instantiate(bullet, transform.position + new Vector3(direction, ab, 0), bullet.transform.rotation);
+            Bullet newBullet = Instantiate(bullet, transform.position + new Vector3(direction*3, ab, 0), bullet.transform.rotation).GetComponent<Bullet>();
+            newBullet.direction = direction;
         }
 
-        
+        //om direction = negativ, tänk på att skottets velocity också ska bli negativ för att flyga åt rätt håll -Simon
     }
 }
