@@ -27,13 +27,12 @@ public class Gun : MonoBehaviour
     void Start()
     {
         Looking = true;
-        lazer = false;
+        lazer = true;
     }
 
     // Update is called once per frame
     void Update()
     {
-        lazer = false;
         timer += Time.deltaTime;
             
         if (Looking == true)
@@ -48,7 +47,7 @@ public class Gun : MonoBehaviour
       
 
        //frys skott kod//
-        if (Input.GetKeyDown(KeyCode.Space) && timer > 0.25f && lazer == false )
+        if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == false )
         {
             timer = 0;
             Instantiate(icebullet, transform.position + new Vector3(direction, ab, 0), bullet.transform.rotation);
@@ -57,7 +56,7 @@ public class Gun : MonoBehaviour
         }
             
         //lazer kod//
-        if (Input.GetKeyDown(KeyCode.Space) && timer > 0.25f && lazer == true )
+        if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == true )
         {
             timer = 0;
             Instantiate(bullet, transform.position + new Vector3(direction, ab, 0), bullet.transform.rotation);
