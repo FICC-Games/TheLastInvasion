@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class enemymelee : MonoBehaviour
 {
+    private GameObject enemy;
     Rigidbody2D rb;
 
     //Player target;

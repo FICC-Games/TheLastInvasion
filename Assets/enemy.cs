@@ -2,12 +2,11 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class NewBehaviourScript : MonoBehaviour
+public class enemy : MonoBehaviour
 {
+    Rigidbody2D rb;
 
-
-
-    public int health = 3 - 9;
+    public int health = 3;
 
     float speed = 2;
 

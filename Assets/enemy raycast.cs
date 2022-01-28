@@ -8,7 +8,7 @@ public class enemyraycast : MonoBehaviour
     Vector3 directionToPlayer;
     Transform playerTransform;
     [SerializeField]
-
+    private GameObject enemy;
     // Start is called before the first frame update
     void Start()
     {
