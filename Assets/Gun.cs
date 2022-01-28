@@ -15,7 +15,7 @@ public class Gun : MonoBehaviour
     [SerializeField]
     private GameObject icebullet;
 
-    float direction;
+    public  float direction;
     float ab;
     public bool lazer;
     public object Yield
