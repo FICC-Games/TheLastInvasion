@@ -23,7 +23,7 @@ public class enemymelee : MonoBehaviour
     }
     void Die()
     {
-       // Destroy(Player);
+       //    Destroy(Player);
     }
 
 
