@@ -49,26 +49,8 @@ public class enemyspawner : MonoBehaviour
 
 
         }
-        // Enemy changes colour with sprite rendering. 
-        spawnposition = new Vector3(randomXposition, randomYposition, 0f);
-        newenemy = Instantiate(enemy, spawnposition, Quaternion.identity);
-        rend = newenemy.GetComponent<SpriteRenderer>();
-        int rngColor = Random.Range(0, 3);
-        switch (rngColor)
-        {
-            case 0:
-                rend.color = new Color(0, 1, 0, 1);
-                break;
-            case 1:
-                rend.color = new Color(1, 0, 0, 1);
-                break;
-            case 2:
-                rend.color = new Color(0, 0, 1, 1);
-                break;
-            default:
-                rend.color = new Color(0, 0, 1, 1);
-                break;
-        }
+        
+      
     }
     
 }
