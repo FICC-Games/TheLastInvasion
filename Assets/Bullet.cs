@@ -6,14 +6,14 @@ public class Bullet : MonoBehaviour
 {
     float timer;
     bool lazer;
-    
+    public float direction;
 
     public static float bspeed;
     // Start is called before the first frame update
     void Start()
     {
-        direction = GetComponent<Gun>();
-            bspeed = 5;
+        //direction = GetComponent<Gun>().direction;
+        bspeed = 40;
     }
 
     // Update is called once per frame
@@ -21,7 +21,7 @@ public class Bullet : MonoBehaviour
     {
        
         
-            transform.position += new Vector3(bspeed, 0, 0) * Time.deltaTime;
+            transform.position += new Vector3(direction*bspeed, 0, 0) * Time.deltaTime;
 
         
 
