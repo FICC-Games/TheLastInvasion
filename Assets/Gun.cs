@@ -15,7 +15,7 @@ public class Gun : MonoBehaviour
     [SerializeField]
     private GameObject icebullet;
 
-    public  float direction;
+    public float direction;
     float ab;
     public bool lazer;
     public object Yield
@@ -37,11 +37,11 @@ public class Gun : MonoBehaviour
             
         if (Looking == true)
         {
-            direction = 1.5f;
+            Direction = 1.5f;
         }
         if (Looking == false)
         {
-            direction -= 1.5f;
+            Direction -= 1.5f;
         }
         
       
@@ -50,7 +50,7 @@ public class Gun : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == false )
         {
             timer = 0;
-            Instantiate(icebullet, transform.position + new Vector3(direction, ab, 0), bullet.transform.rotation);
+            Instantiate(icebullet, transform.position + new Vector3(Direction, ab, 0), bullet.transform.rotation);
 
             lazer = true;
         }
@@ -59,7 +59,7 @@ public class Gun : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == true )
         {
             timer = 0;
-            Instantiate(bullet, transform.position + new Vector3(direction, ab, 0), bullet.transform.rotation);
+            Instantiate(bullet, transform.position + new Vector3(Direction, ab, 0), bullet.transform.rotation);
         }
 
         
