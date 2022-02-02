@@ -44,25 +44,25 @@ public class Movment : MonoBehaviour
     void Update()
     {
         {
-            
+
             if (Input.GetKey(right))
             {
+                animator.SetBool("isRunning", true);
                 transform.position += new Vector3(speed / Crouchspeed, 0, 0) * Time.deltaTime;
                 Looking = true;
                 Player.transform.eulerAngles = new Vector3(0f, 0f, 0f);
-                animator.SetBool("isRunning", true);
             }
-            if (Input.GetKey(left))
+            else if (Input.GetKey(left))
             {
+                animator.SetBool("isRunning", true);
                 transform.position -= new Vector3(speed / Crouchspeed, 0, 0) * Time.deltaTime;
                 Looking = false;
                 Player.transform.eulerAngles = new Vector3(0f, 180f, 0f);
-                animator.SetBool("isRunning", true);
             }
             else
             {
                 animator.SetBool("isRunning", false);
-            }
+            };
             if ((Input.GetKeyDown(jump) && onground) || (Input.GetKeyDown(jumpx2) && onground))
             {
                 float jumpVelocity = JumpHight;
