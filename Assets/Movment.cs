@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Tim.B
 public class Movment : MonoBehaviour
 {
 
@@ -32,7 +33,7 @@ public class Movment : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        onground = true;
+        
     }
     private void Awake()
     {
