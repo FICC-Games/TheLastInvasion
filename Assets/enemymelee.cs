@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class enemymelee : MonoBehaviour
 {
+    private GameObject enemy;
+
     Rigidbody2D rb;
 
     //Player target;
@@ -23,7 +25,7 @@ public class enemymelee : MonoBehaviour
     }
     void Die()
     {
-       // Destroy(Player);
+       //    Destroy(Player);
     }
 
 
@@ -35,3 +37,4 @@ public class enemymelee : MonoBehaviour
         }
     }
 }
+// made by Efe
