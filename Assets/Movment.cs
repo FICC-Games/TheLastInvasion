@@ -22,7 +22,6 @@ public class Movment : MonoBehaviour
     private int Crouchspeed;
     private Rigidbody2D rb2d;
     bool onground;
-    bool lookingright;
     public GameObject Player;
     public Animator animator;
 
@@ -91,6 +90,5 @@ public class Movment : MonoBehaviour
             animator.SetBool("isJumping", false);
         }
     }
-
 }
 //Made by Tim.B
