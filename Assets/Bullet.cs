@@ -7,26 +7,26 @@ public class Bullet : MonoBehaviour
     float timer;
     bool lazer;
     public float direction;
-
     public static float bspeed;
     // Start is called before the first frame update
     void Start()
     {
         //direction = GetComponent<Gun>().direction;
         bspeed = 40;
+        timer = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-       
+        timer = Time.deltaTime;
         
-            transform.position += new Vector3(direction*bspeed, 0, 0) * Time.deltaTime;
+        transform.position += new Vector3(direction*bspeed, 0, 0) * Time.deltaTime;
 
-        
-
-
-
+        if (timer == 2)
+        {
+            Destroy(gameObject);
+        }
     }
 
 
