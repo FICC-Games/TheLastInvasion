@@ -2,11 +2,11 @@ using UnityEngine.Audio;
 using System;
 using UnityEngine;
 
-public class AudioManager : MonoBehaviour {
+public class AudioManager2: MonoBehaviour {
 
     public Sound[] sounds;
 
-    public static AudioManager instance;
+    public static AudioManager2 instance;
     // Start is called before the first frame update
     void Awake () {
 
