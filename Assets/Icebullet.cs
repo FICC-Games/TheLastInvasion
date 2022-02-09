@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class Icebullet : MonoBehaviour
 {
-    bool lazer;
-
-    float timer;
-    
     public GameObject iceblock;
 
     public static float ispeed;
@@ -15,8 +11,7 @@ public class Icebullet : MonoBehaviour
     void Start()
     {
         
-        ispeed = 5;
-        lazer = GetComponent<Gun>();
+        ispeed = 20;
 
 
     }

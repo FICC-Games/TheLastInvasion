@@ -1082,7 +1082,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56404228e3ba2ae48a3e51b63ec783b8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerhealth: 3
 --- !u!1 &1081420567
 GameObject:
   m_ObjectHideFlags: 0
@@ -1683,8 +1682,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   looking: 0
-  bullet: {fileID: 7637563038024981319, guid: 2a03f60509452e74fa69dfaba087227c, type: 3}
-  icebullet: {fileID: 7409655092837320654, guid: ffdebf7bc9d4a424e9653922ab7d43bd, type: 3}
+  bullet: {fileID: 7409655092837320654, guid: 2a03f60509452e74fa69dfaba087227c, type: 3}
+  icebullet: {fileID: 7637563038024981319, guid: ffdebf7bc9d4a424e9653922ab7d43bd, type: 3}
   direction: 0
   lazer: 0
 --- !u!82 &1753984860
