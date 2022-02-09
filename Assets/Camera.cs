@@ -15,9 +15,10 @@ public class Camera : MonoBehaviour
         CTransform = Camera1.transform;
         CameraLast = CTransform.position;
     }
+    
 
     // Update is called once per frame
-    private void LateUpdate()
+    private void Update()
     {
         Vector3 deltaMovment = CTransform.position - CameraLast;
         transform.position += deltaMovment * EffectMultiplier;
