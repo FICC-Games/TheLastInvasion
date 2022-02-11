@@ -11,12 +11,12 @@ public class AudioManager1 : MonoBehaviour
     
     public static AudioManager1 instance;
 
-    public void awake()
+    public void Awake()
     {
         if (instance == null)
             instance = this;
     }
-    private void start()
+    private void Start()
     {
         track01 = gameObject.AddComponent<AudioSource>(); 
         track02 = gameObject.AddComponent<AudioSource>();

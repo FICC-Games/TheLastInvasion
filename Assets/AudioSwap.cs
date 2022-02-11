@@ -6,17 +6,17 @@ public class AudioSwap : MonoBehaviour
 {
     public AudioClip newTrack;
 
-    private void onTriggerEnter(Collider other)
+    private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {
             AudioManager1.instance.SwapTrack(newTrack);
-            
+                
         }
            
     }
 
-    private void OnTriggerExit(Collider other)
+    private void OnTriggerExit2D(Collider2D other) 
     {
         if (other.CompareTag("Player"))
         {
