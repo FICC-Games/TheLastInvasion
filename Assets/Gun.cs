@@ -66,7 +66,7 @@ public class Gun : MonoBehaviour
         {
             timer = 0;
             Bullet newBullet = Instantiate(bullet, transform.position + new Vector3(direction*3, ab, 0), bullet.transform.rotation).GetComponent<Bullet>();
-            newBullet.direction = direction;
+            //newBullet.direction = direction;
         }
 
         //om direction = negativ, tänk på att skottets velocity också ska bli negativ för att flyga åt rätt håll -Simon
