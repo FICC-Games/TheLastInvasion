@@ -12,19 +12,21 @@ public class enemyraycast : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        playerTransform = FindObjectOfType<Player>().transform;
+        playerTransform = FindObjectOfType<Movment>().transform;
     }
 
     // Update is called once per frame
     void Update()
     {
         directionToPlayer = (playerTransform.position - transform.position).normalized;
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, 5);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, 50);
+        Debug.DrawRay(transform.position, directionToPlayer * 50);
         if (hit.transform != null)
         {
-
-            if (hit.transform.tag == "player")
+            print("träffad");
+            if (hit.transform.tag == "Player")
             {
+                print("hittad");
                 transform.position += directionToPlayer * 1 * Time.deltaTime;
             }
 

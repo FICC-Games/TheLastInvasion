@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class enemy : MonoBehaviour
 {
+
+    public GameObject Enemy;
     Rigidbody2D rb;
 
     public int health = 9;
