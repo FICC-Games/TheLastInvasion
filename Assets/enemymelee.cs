@@ -8,15 +8,13 @@ public class enemymelee : MonoBehaviour
 
     Rigidbody2D rb;
 
-    //Player target;
-
-    public int playerhealth;
+    Player target;
 
     public void GiveDamage(int damage)
     {
-        playerhealth -= damage;
+        target.playerhealth -= damage;
 
-        if (playerhealth < 000.1)
+        if (target.playerhealth < 000.1)
         {
             Die();
         }
@@ -25,7 +23,7 @@ public class enemymelee : MonoBehaviour
     }
     void Die()
     {
-       //    Destroy(Player);
+       Destroy(target.gameObject);
     }
 
 

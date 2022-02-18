@@ -6,7 +6,7 @@ public class enemy : MonoBehaviour
 {
     Rigidbody2D rb;
 
-    public int health = 3;
+    public int health = 9;
 
     float speed = 2;
 
@@ -33,3 +33,4 @@ public class enemy : MonoBehaviour
     }
    
 }
+// made by Efe

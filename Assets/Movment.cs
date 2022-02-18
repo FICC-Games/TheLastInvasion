@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+//Tim.B
 public class Movment : MonoBehaviour
 {
 
@@ -22,7 +23,6 @@ public class Movment : MonoBehaviour
     private int Crouchspeed;
     private Rigidbody2D rb2d;
     bool onground;
-    bool lookingright;
     public GameObject Player;
     public Animator animator;
 
@@ -33,7 +33,7 @@ public class Movment : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        onground = true;
+        
     }
     private void Awake()
     {
@@ -44,25 +44,25 @@ public class Movment : MonoBehaviour
     void Update()
     {
         {
-            
+
             if (Input.GetKey(right))
             {
+                animator.SetBool("isRunning", true);
                 transform.position += new Vector3(speed / Crouchspeed, 0, 0) * Time.deltaTime;
                 Looking = true;
                 Player.transform.eulerAngles = new Vector3(0f, 0f, 0f);
-                animator.SetBool("isRunning", true);
             }
-            if (Input.GetKey(left))
+            else if (Input.GetKey(left))
             {
+                animator.SetBool("isRunning", true);
                 transform.position -= new Vector3(speed / Crouchspeed, 0, 0) * Time.deltaTime;
                 Looking = false;
                 Player.transform.eulerAngles = new Vector3(0f, 180f, 0f);
-                animator.SetBool("isRunning", true);
             }
             else
             {
                 animator.SetBool("isRunning", false);
-            }
+            };
             if ((Input.GetKeyDown(jump) && onground) || (Input.GetKeyDown(jumpx2) && onground))
             {
                 float jumpVelocity = JumpHight;
@@ -91,6 +91,5 @@ public class Movment : MonoBehaviour
             animator.SetBool("isJumping", false);
         }
     }
-
 }
 //Made by Tim.B
