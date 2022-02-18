@@ -11,7 +11,7 @@ public class Icebullet : MonoBehaviour
     void Start()
     {
         
-        ispeed = 20;
+        ispeed = 60;
 
 
     }
