@@ -39,7 +39,6 @@ TextureImporter:
   streamingMipmaps: 0
   streamingMipmapsPriority: 0
   vTOnly: 0
-  ignoreMasterTextureLimit: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -114,8 +113,8 @@ TextureImporter:
         y: 2239
         width: 772
         height: 801
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.28342822, y: 0.53069556}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -135,8 +134,8 @@ TextureImporter:
         y: 2239
         width: 772
         height: 801
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2961674, y: 0.5245564}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -156,8 +155,8 @@ TextureImporter:
         y: 1118
         width: 772
         height: 801
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.29616773, y: 0.5245566}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -177,8 +176,8 @@ TextureImporter:
         y: 1118
         width: 772
         height: 801
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2961674, y: 0.5245566}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -198,8 +197,8 @@ TextureImporter:
         y: 0
         width: 772
         height: 801
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.27705842, y: 0.5613914}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -221,12 +220,6 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      crouch_and_walk_char_1: 5097466261402880721
-      crouch_and_walk_char_2: 282526995943024829
-      crouch_and_walk_char_0: 424839110843250818
-      crouch_and_walk_char_3: 1826677832071306878
-      crouch_and_walk_char_4: -1689221676523200767
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
