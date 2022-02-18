@@ -32,7 +32,12 @@ public class Gun : MonoBehaviour
         move = GetComponent<Movment>();
         lazer = true;
     }
+    void ice() {
+        timer = 0;
+        Instantiate(icebullet, transform.position + new Vector3(direction * 3, ab, 0), bullet.transform.rotation);
 
+        lazer = true;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -52,10 +57,8 @@ public class Gun : MonoBehaviour
        //frys skott kod//
         if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == false )
         {
-            timer = 0;
-            Instantiate(icebullet, transform.position + new Vector3(direction*3, ab, 0), bullet.transform.rotation);
-
-            lazer = true;
+            Invoke("ice", 2);
+            
         }
             
         //lazer kod//
