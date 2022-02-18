@@ -5,7 +5,7 @@ using UnityEngine;
 public class Bullet : MonoBehaviour
 {
     float timer;
-    bool lazer;
+    
     public float direction;
     public static float bspeed;
     // Start is called before the first frame update
