@@ -18,6 +18,7 @@ public class Gun : MonoBehaviour
     public float direction;
     float ab;
     public bool lazer;
+    bool shootingice;
 
     Movment move;
     
@@ -32,11 +33,13 @@ public class Gun : MonoBehaviour
         move = GetComponent<Movment>();
         lazer = true;
     }
+    //is skott metoden
     void ice() {
         timer = 0;
         Instantiate(icebullet, transform.position + new Vector3(direction * 3, ab, 0), bullet.transform.rotation);
-
         lazer = true;
+        shootingice = false;
+
     }
     // Update is called once per frame
     void Update()
@@ -55,8 +58,9 @@ public class Gun : MonoBehaviour
       
 
        //frys skott kod//
-        if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == false )
+        if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == false && shootingice == false )
         {
+            shootingice = true;
             Invoke("ice", 2);
             
         }
@@ -66,7 +70,7 @@ public class Gun : MonoBehaviour
         {
             timer = 0;
             Bullet newBullet = Instantiate(bullet, transform.position + new Vector3(direction*3, ab, 0), bullet.transform.rotation).GetComponent<Bullet>();
-            //newBullet.direction = direction;
+            newBullet.direction = direction;
         }
 
         //om direction = negativ, tänk på att skottets velocity också ska bli negativ för att flyga åt rätt håll -Simon
