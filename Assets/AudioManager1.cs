@@ -23,6 +23,7 @@ public class AudioManager1 : MonoBehaviour
     }
     private void Start()
     {
+        //This line of code makes it so the audio source1 and 2 plays if its true.
         track01 = gameObject.AddComponent<AudioSource>(); 
         track02 = gameObject.AddComponent<AudioSource>();
         isPlayingTrack01 = true;
@@ -31,6 +32,7 @@ public class AudioManager1 : MonoBehaviour
     }
     public void SwapTrack(AudioClip newClip)
     {
+        //this line of code describes how if track 2 plays then track 1 stops playing and only track 2 is playing.
         if (isPlayingTrack01)
         {
             track02.clip = newClip;
@@ -39,6 +41,7 @@ public class AudioManager1 : MonoBehaviour
         }
         else
         {
+           //this line of code describes if track 1 is playing then track 2 stops playing and only track 1 is playing.
             track01.clip = newClip;
             track01.Play();
             track02.Stop();
@@ -47,7 +50,7 @@ public class AudioManager1 : MonoBehaviour
         isPlayingTrack01 = isPlayingTrack01;
 
     }
-
+    //this line of code makes it so when the player touches a certain zone the music track switches to another one.
     public void ReturnToDefault()
     {
         SwapTrack(defaultAmbience);
