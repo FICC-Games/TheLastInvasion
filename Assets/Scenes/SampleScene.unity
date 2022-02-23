@@ -6072,8 +6072,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   looking: 0
   lazerSFX: {fileID: 8300000, guid: a5aea78f1c4bfaf49a40a3d7d84e4976, type: 3}
-  bullet: {fileID: 7409655092837320654, guid: 2a03f60509452e74fa69dfaba087227c, type: 3}
-  icebullet: {fileID: 7637563038024981319, guid: ffdebf7bc9d4a424e9653922ab7d43bd, type: 3}
+  bullet: {fileID: 7409655092837320654, guid: ffdebf7bc9d4a424e9653922ab7d43bd, type: 3}
+  icebullet: {fileID: 7637563038024981319, guid: 2a03f60509452e74fa69dfaba087227c, type: 3}
   direction: 0
   lazer: 0
 --- !u!82 &1753984860
