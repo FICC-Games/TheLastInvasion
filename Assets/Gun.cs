@@ -8,7 +8,8 @@ public class Gun : MonoBehaviour
 
     public bool looking;
 
-
+    [SerializeField]
+    AudioClip lazerSFX;
 
     [SerializeField]
     private GameObject bullet;
@@ -68,6 +69,7 @@ public class Gun : MonoBehaviour
         //lazer kod//
         if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == true )
         {
+            AudioSource.PlayClipAtPoint(lazerSFX, transform.position);
             timer = 0;
             Bullet newBullet = Instantiate(bullet, transform.position + new Vector3(direction*3, ab, 0), bullet.transform.rotation).GetComponent<Bullet>();
             newBullet.direction = direction;
