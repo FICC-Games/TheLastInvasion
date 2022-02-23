@@ -3,7 +3,10 @@ guid: bfdd70cb9067d8c40a63376ef8af6d50
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - WalkingSFX: {fileID: 8300000, guid: 840a47dc1de3a1f448dfc4b40156b373, type: 3}
+  - Player: {instanceID: 0}
+  - animator: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 
