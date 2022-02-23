@@ -10,7 +10,7 @@ public class enemy : MonoBehaviour
 
     public int health = 9;
 
-    float speed = 2;
+    float speed = 100;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {

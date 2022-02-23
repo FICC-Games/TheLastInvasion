@@ -19,8 +19,8 @@ public class enemyraycast : MonoBehaviour
     void Update()
     {
         directionToPlayer = (playerTransform.position - transform.position).normalized;
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, 50);
-        Debug.DrawRay(transform.position, directionToPlayer * 50);
+        RaycastHit2D hit = Physics2D.Raycast(transform.position, directionToPlayer, 500);
+        Debug.DrawRay(transform.position, directionToPlayer * 500);
         if (hit.transform != null)
         {
             print("träffad");
