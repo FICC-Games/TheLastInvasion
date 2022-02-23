@@ -15,7 +15,7 @@ public class enemyspawner : MonoBehaviour
     // Repeats enemy spawning and the amount of enemies/time needed.
     void Start()
     {
-        InvokeRepeating("spawnenemy", 1f, 1f);
+        InvokeRepeating("spawnenemy", 20f, 20f);
     }
 
 
