@@ -21,14 +21,14 @@ public class Icebullet : MonoBehaviour
     {
 
       
-
+        //skottet åker fram - iram
         transform.position += new Vector3(ispeed, 0, 0) * Time.deltaTime;
 
 
     }
 
 
-
+    //spawnar ett is block där skottet landar och skottet försvinner - iram
     private void OnCollisionEnter2D(Collision2D collision)
     {
         Instantiate(iceblock, transform.position, iceblock.transform.rotation);
