@@ -19,7 +19,7 @@ public class enemyspawner : MonoBehaviour
     }
 
 
-    // enemy spawner 
+    // enemy spawner using swith, case and break action.
     private void spawnenemy()
     {
         randomSpawnZone = Random.Range(-5, 4);

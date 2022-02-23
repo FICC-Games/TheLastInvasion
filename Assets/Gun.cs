@@ -34,7 +34,7 @@ public class Gun : MonoBehaviour
         move = GetComponent<Movment>();
         lazer = true;
     }
-    //is skott metoden
+    //is skott metoden iram
     void ice() {
         timer = 0;
         Instantiate(icebullet, transform.position + new Vector3(direction * 3, ab, 0), bullet.transform.rotation);
@@ -58,7 +58,7 @@ public class Gun : MonoBehaviour
         
       
 
-       //frys skott kod//
+       //frys skott kod//iram
         if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == false && shootingice == false )
         {
             shootingice = true;
@@ -66,7 +66,7 @@ public class Gun : MonoBehaviour
             
         }
             
-        //lazer kod//
+        //lazer kod//iram
         if (Input.GetKeyDown(KeyCode.Mouse0) && timer > 0.25f && lazer == true )
         {
             AudioSource.PlayClipAtPoint(lazerSFX, transform.position);
@@ -75,6 +75,6 @@ public class Gun : MonoBehaviour
             newBullet.direction = direction;
         }
 
-        //om direction = negativ, tänk på att skottets velocity också ska bli negativ för att flyga åt rätt håll -Simon
+        //om direction = negativ, tänk på att skottets velocity också ska bli negativ för att flyga åt rätt håll -iram
     }
 }

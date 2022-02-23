@@ -10,12 +10,14 @@ public class enemyraycast : MonoBehaviour
     [SerializeField]
     private GameObject enemy;
     // Start is called before the first frame update
+    //searching for player.
     void Start()
     {
         playerTransform = FindObjectOfType<Movment>().transform;
     }
 
     // Update is called once per frame
+    // enemy raycast to to follow the player.
     void Update()
     {
         directionToPlayer = (playerTransform.position - transform.position).normalized;

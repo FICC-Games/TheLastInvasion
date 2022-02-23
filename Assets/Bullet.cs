@@ -20,7 +20,7 @@ public class Bullet : MonoBehaviour
     void Update()
     {
         timer = Time.deltaTime;
-        
+        //skott direktion + hastigher - iram
         transform.position += new Vector3(direction*bspeed, 0, 0) * Time.deltaTime;
 
         if (timer == 2)
@@ -30,7 +30,7 @@ public class Bullet : MonoBehaviour
     }
 
 
-
+    //den gpr sönder på kontakt-iram
     private void OnCollisionEnter2D(Collision2D collision)
     {
         
