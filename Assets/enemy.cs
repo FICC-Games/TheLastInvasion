@@ -4,23 +4,12 @@ using UnityEngine;
 
 public class enemy : MonoBehaviour
 {
-    public float speed;
+   
+    public float speed; 
     public GameObject Enemy;
     public int health = 9;
 
-    
-
-
-
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.transform.tag == "hit")
-        {
-            TakeDamage(3);
-        }
-    }
-
+    // enemy being able to take damage.
     public void TakeDamage(int damage)
     {
         health =-damage;
@@ -30,6 +19,7 @@ public class enemy : MonoBehaviour
             Die();
         }
     }
+    // enemy being able to die.
     void Die()
     {
         Destroy(gameObject);
