@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class enemy : MonoBehaviour
 {
-
+    public float speed;
     public GameObject Enemy;
-    Rigidbody2D rb;
-
     public int health = 9;
 
-    float speed = 10;
+    
+
+
+
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
