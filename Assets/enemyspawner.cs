@@ -12,14 +12,14 @@ public class enemyspawner : MonoBehaviour
     private Vector3 spawnposition;
 
 
-    // Start is called before the first frame update
+    // Repeats enemy spawning and the amount of enemies/time needed.
     void Start()
     {
-        InvokeRepeating("spawnenemy", 100f, 100f);
+        InvokeRepeating("spawnenemy", 1f, 1f);
     }
 
 
-
+    // enemy spawner 
     private void spawnenemy()
     {
         randomSpawnZone = Random.Range(-5, 4);
