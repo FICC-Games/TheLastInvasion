@@ -8,6 +8,8 @@ public class Movment : MonoBehaviour
 
     [SerializeField, Range(10, 100)]
     float speed;
+    public float healthTimer;
+    public float health = 3;
     [SerializeField, Range(5, 50)]
     float JumpHight;
     [SerializeField]
@@ -110,6 +112,20 @@ public class Movment : MonoBehaviour
         {
             onground = true;
             animator.SetBool("isJumping", false);
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        if (collision.gameObject.tag == "Enemy")
+        {
+           
+            if (healthTimer > 2)
+            {
+                healthTimer = 0;
+                health -= 1;
+                Destroy(collision.gameObject);
+            }
         }
     }
 }
