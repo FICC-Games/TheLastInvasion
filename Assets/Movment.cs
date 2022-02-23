@@ -11,6 +11,8 @@ public class Movment : MonoBehaviour
     [SerializeField, Range(5, 50)]
     float JumpHight;
     [SerializeField]
+    AudioClip WalkingSFX;
+    [SerializeField]
     KeyCode jump;
     [SerializeField]
     KeyCode jumpx2;
@@ -26,6 +28,8 @@ public class Movment : MonoBehaviour
     public GameObject Player;
     public Animator animator;
 
+    AudioSource source;
+
     public bool Looking;
     //if Looking = true; The Character is looking right
     //if Looking = false; The Character is looking left
@@ -33,7 +37,7 @@ public class Movment : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        source = GetComponent<AudioSource>();
     }
     private void Awake()
     {
@@ -47,6 +51,15 @@ public class Movment : MonoBehaviour
             // Om du trycker ner höger knappen (I det här fallet "D") så kommer du gå åt höger och starta en animation på gubben. Playern kommer också riktas åt det hållet du går.
             if (Input.GetKey(right))
             {
+                // AudioSource.PlayClipAtPoint(WalkingSFX, transform.position);
+                if (source.isPlaying == false)
+                {
+                    source.Play();
+                }
+                else
+                {
+                    
+                }
                 animator.SetBool("isRunning", true);
                 transform.position += new Vector3(speed / Crouchspeed, 0, 0) * Time.deltaTime;
                 Looking = true;
