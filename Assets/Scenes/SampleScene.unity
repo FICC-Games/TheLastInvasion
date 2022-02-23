@@ -218,7 +218,7 @@ GameObject:
   - component: {fileID: 14890734}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -329,7 +329,7 @@ GameObject:
   - component: {fileID: 67233029}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -438,7 +438,7 @@ GameObject:
   - component: {fileID: 130849003}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -627,7 +627,7 @@ GameObject:
   - component: {fileID: 255887438}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -738,7 +738,7 @@ GameObject:
   - component: {fileID: 264295672}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -847,7 +847,7 @@ GameObject:
   - component: {fileID: 313412424}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -958,7 +958,7 @@ GameObject:
   - component: {fileID: 357718344}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1067,7 +1067,7 @@ GameObject:
   - component: {fileID: 403555400}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1176,7 +1176,7 @@ GameObject:
   - component: {fileID: 418931324}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1475,7 +1475,7 @@ GameObject:
   - component: {fileID: 528954221}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1584,7 +1584,7 @@ GameObject:
   - component: {fileID: 547868048}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1693,7 +1693,7 @@ GameObject:
   - component: {fileID: 594158421}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1884,7 +1884,7 @@ GameObject:
   - component: {fileID: 624803243}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1991,7 +1991,7 @@ GameObject:
   - component: {fileID: 641977014}
   m_Layer: 0
   m_Name: platforms (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2024,7 +2024,7 @@ GameObject:
   - component: {fileID: 670392932}
   m_Layer: 0
   m_Name: platforms (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2061,7 +2061,7 @@ GameObject:
   - component: {fileID: 699735738}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2172,7 +2172,7 @@ GameObject:
   - component: {fileID: 722769648}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2363,7 +2363,7 @@ GameObject:
   - component: {fileID: 743136435}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2472,7 +2472,7 @@ GameObject:
   - component: {fileID: 793345700}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2794,7 +2794,7 @@ GameObject:
   - component: {fileID: 869362420}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3096,7 +3096,7 @@ GameObject:
   - component: {fileID: 1029081811}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3207,7 +3207,7 @@ GameObject:
   - component: {fileID: 1064559848}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3316,7 +3316,7 @@ GameObject:
   - component: {fileID: 1072124180}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3425,7 +3425,7 @@ GameObject:
   - component: {fileID: 1076455980}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3684,7 +3684,7 @@ GameObject:
   - component: {fileID: 1103833984}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3793,7 +3793,7 @@ GameObject:
   - component: {fileID: 1116100722}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3904,7 +3904,7 @@ GameObject:
   - component: {fileID: 1184592437}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4095,7 +4095,7 @@ GameObject:
   - component: {fileID: 1223660740}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4206,7 +4206,7 @@ GameObject:
   - component: {fileID: 1332631632}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4315,7 +4315,7 @@ GameObject:
   - component: {fileID: 1341944936}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4424,7 +4424,7 @@ GameObject:
   - component: {fileID: 1385914004}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4535,7 +4535,7 @@ GameObject:
   - component: {fileID: 1410786086}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4644,7 +4644,7 @@ GameObject:
   - component: {fileID: 1430865821}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4920,7 +4920,7 @@ GameObject:
   - component: {fileID: 1506404143}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5029,7 +5029,7 @@ GameObject:
   - component: {fileID: 1520146935}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5140,7 +5140,7 @@ GameObject:
   - component: {fileID: 1600480200}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5249,7 +5249,7 @@ GameObject:
   - component: {fileID: 1618545361}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5637,7 +5637,7 @@ GameObject:
   - component: {fileID: 1647199635}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5746,7 +5746,7 @@ GameObject:
   - component: {fileID: 1663101409}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5855,7 +5855,7 @@ GameObject:
   - component: {fileID: 1694588933}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5964,7 +5964,7 @@ GameObject:
   - component: {fileID: 1729222030}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_32
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6495,7 +6495,7 @@ GameObject:
   - component: {fileID: 1855582292}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6604,7 +6604,7 @@ GameObject:
   - component: {fileID: 1889294589}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6713,7 +6713,7 @@ GameObject:
   - component: {fileID: 1893810964}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6824,7 +6824,7 @@ GameObject:
   - component: {fileID: 1943509704}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_33
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6933,7 +6933,7 @@ GameObject:
   - component: {fileID: 1947348961}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7044,7 +7044,7 @@ GameObject:
   - component: {fileID: 1947738766}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7153,7 +7153,7 @@ GameObject:
   - component: {fileID: 1969942993}
   m_Layer: 0
   m_Name: platforms
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7190,7 +7190,7 @@ GameObject:
   - component: {fileID: 1974861806}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7301,7 +7301,7 @@ GameObject:
   - component: {fileID: 2004691560}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7494,7 +7494,7 @@ GameObject:
   - component: {fileID: 2070484421}
   m_Layer: 0
   m_Name: tile_set_collection_wo_details_1_34 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7698,7 +7698,7 @@ GameObject:
   - component: {fileID: 2103889702}
   m_Layer: 0
   m_Name: platforms (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
