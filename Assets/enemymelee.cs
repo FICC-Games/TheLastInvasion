@@ -10,6 +10,9 @@ public class enemymelee : MonoBehaviour
 
     Player target;
 
+    public float health = 3;
+    public float healthTimer;
+
     public void GiveDamage(int damage)
     {
         target.playerhealth -= damage;
@@ -32,6 +35,19 @@ public class enemymelee : MonoBehaviour
         if (collision.transform.tag == "bullet")
         {
 
+        }
+    }
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        
+        if (collision.gameObject.tag == "Enemy")
+        {
+            if (healthTimer > 2)
+            {
+                healthTimer = 0;
+                health -= 1;
+                Destroy(collision.gameObject);
+            }
         }
     }
 }
