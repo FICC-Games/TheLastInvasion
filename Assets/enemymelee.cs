@@ -13,23 +13,8 @@ public class enemymelee : MonoBehaviour
     public float health = 3;
     public float healthTimer;
 
-    public void GiveDamage(int damage)
-    {
-        target.playerhealth -= damage;
 
-        if (target.playerhealth < 000.1)
-        {
-            Die();
-        }
-
-
-    }
-    void Die()
-    {
-       Destroy(target.gameObject);
-    }
-
-
+    // to make sure there is collision.
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.transform.tag == "bullet")
@@ -37,6 +22,7 @@ public class enemymelee : MonoBehaviour
 
         }
     }
+   // being able to take damage when colllidiing.
     private void OnTriggerEnter2D(Collider2D collision)
     {
         
