@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class enemy : MonoBehaviour
 {
+
+    public GameObject Enemy;
     Rigidbody2D rb;
 
     public int health = 9;
 
-    float speed = 2;
+    float speed = 10;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
@@ -20,7 +22,7 @@ public class enemy : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        health = -damage;
+        health =-damage;
 
         if (health < 1)
         {
