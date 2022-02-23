@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+//Tim.B
 public class Camera : MonoBehaviour
 {
     [SerializeField, Range(0, 10)]
